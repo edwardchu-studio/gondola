@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFD0ED61BFF3B2500198500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD0ED51BFF3B2500198500 /* AppDelegate.swift */; };
+		BFFD0ED81BFF3B2500198500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD0ED71BFF3B2500198500 /* ViewController.swift */; };
+		BFFD0EDA1BFF3B2500198500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFD0ED91BFF3B2500198500 /* Assets.xcassets */; };
+		BFFD0EDD1BFF3B2500198500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFD0EDB1BFF3B2500198500 /* Main.storyboard */; };
+		BFFD0EE81BFF3B2500198500 /* GONDOLAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD0EE71BFF3B2500198500 /* GONDOLAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFFD0EE41BFF3B2500198500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFD0ECA1BFF3B2500198500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFD0ED11BFF3B2500198500;
+			remoteInfo = GONDOLA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFFD0ED21BFF3B2500198500 /* GONDOLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GONDOLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFD0ED51BFF3B2500198500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFFD0ED71BFF3B2500198500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFFD0ED91BFF3B2500198500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFD0EDC1BFF3B2500198500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFFD0EDE1BFF3B2500198500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFD0EE31BFF3B2500198500 /* GONDOLAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GONDOLAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFD0EE71BFF3B2500198500 /* GONDOLAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GONDOLAUITests.swift; sourceTree = "<group>"; };
+		BFFD0EE91BFF3B2500198500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFD0ECF1BFF3B2500198500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFD0EE01BFF3B2500198500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFD0EC91BFF3B2500198500 = {
+			isa = PBXGroup;
+			children = (
+				BFFD0ED41BFF3B2500198500 /* GONDOLA */,
+				BFFD0EE61BFF3B2500198500 /* GONDOLAUITests */,
+				BFFD0ED31BFF3B2500198500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFD0ED31BFF3B2500198500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFD0ED21BFF3B2500198500 /* GONDOLA.app */,
+				BFFD0EE31BFF3B2500198500 /* GONDOLAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFD0ED41BFF3B2500198500 /* GONDOLA */ = {
+			isa = PBXGroup;
+			children = (
+				BFFD0ED51BFF3B2500198500 /* AppDelegate.swift */,
+				BFFD0ED71BFF3B2500198500 /* ViewController.swift */,
+				BFFD0ED91BFF3B2500198500 /* Assets.xcassets */,
+				BFFD0EDB1BFF3B2500198500 /* Main.storyboard */,
+				BFFD0EDE1BFF3B2500198500 /* Info.plist */,
+			);
+			path = GONDOLA;
+			sourceTree = "<group>";
+		};
+		BFFD0EE61BFF3B2500198500 /* GONDOLAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFD0EE71BFF3B2500198500 /* GONDOLAUITests.swift */,
+				BFFD0EE91BFF3B2500198500 /* Info.plist */,
+			);
+			path = GONDOLAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFD0ED11BFF3B2500198500 /* GONDOLA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFD0EEC1BFF3B2500198500 /* Build configuration list for PBXNativeTarget "GONDOLA" */;
+			buildPhases = (
+				BFFD0ECE1BFF3B2500198500 /* Sources */,
+				BFFD0ECF1BFF3B2500198500 /* Frameworks */,
+				BFFD0ED01BFF3B2500198500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GONDOLA;
+			productName = GONDOLA;
+			productReference = BFFD0ED21BFF3B2500198500 /* GONDOLA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFFD0EE21BFF3B2500198500 /* GONDOLAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFD0EEF1BFF3B2500198500 /* Build configuration list for PBXNativeTarget "GONDOLAUITests" */;
+			buildPhases = (
+				BFFD0EDF1BFF3B2500198500 /* Sources */,
+				BFFD0EE01BFF3B2500198500 /* Frameworks */,
+				BFFD0EE11BFF3B2500198500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFD0EE51BFF3B2500198500 /* PBXTargetDependency */,
+			);
+			name = GONDOLAUITests;
+			productName = GONDOLAUITests;
+			productReference = BFFD0EE31BFF3B2500198500 /* GONDOLAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFD0ECA1BFF3B2500198500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = UTOPIA;
+				TargetAttributes = {
+					BFFD0ED11BFF3B2500198500 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					BFFD0EE21BFF3B2500198500 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BFFD0ED11BFF3B2500198500;
+					};
+				};
+			};
+			buildConfigurationList = BFFD0ECD1BFF3B2500198500 /* Build configuration list for PBXProject "GONDOLA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFFD0EC91BFF3B2500198500;
+			productRefGroup = BFFD0ED31BFF3B2500198500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFD0ED11BFF3B2500198500 /* GONDOLA */,
+				BFFD0EE21BFF3B2500198500 /* GONDOLAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFD0ED01BFF3B2500198500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFD0EDA1BFF3B2500198500 /* Assets.xcassets in Resources */,
+				BFFD0EDD1BFF3B2500198500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFD0EE11BFF3B2500198500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFD0ECE1BFF3B2500198500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFD0ED81BFF3B2500198500 /* ViewController.swift in Sources */,
+				BFFD0ED61BFF3B2500198500 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFD0EDF1BFF3B2500198500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFD0EE81BFF3B2500198500 /* GONDOLAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFFD0EE51BFF3B2500198500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFFD0ED11BFF3B2500198500 /* GONDOLA */;
+			targetProxy = BFFD0EE41BFF3B2500198500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFFD0EDB1BFF3B2500198500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFD0EDC1BFF3B2500198500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFD0EEA1BFF3B2500198500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFFD0EEB1BFF3B2500198500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFFD0EED1BFF3B2500198500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GONDOLA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UTOPIA.GONDOLA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFFD0EEE1BFF3B2500198500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GONDOLA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UTOPIA.GONDOLA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFFD0EF01BFF3B2500198500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GONDOLAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UTOPIA.GONDOLAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GONDOLA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFFD0EF11BFF3B2500198500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GONDOLAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UTOPIA.GONDOLAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GONDOLA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFD0ECD1BFF3B2500198500 /* Build configuration list for PBXProject "GONDOLA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFD0EEA1BFF3B2500198500 /* Debug */,
+				BFFD0EEB1BFF3B2500198500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFD0EEC1BFF3B2500198500 /* Build configuration list for PBXNativeTarget "GONDOLA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFD0EED1BFF3B2500198500 /* Debug */,
+				BFFD0EEE1BFF3B2500198500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFFD0EEF1BFF3B2500198500 /* Build configuration list for PBXNativeTarget "GONDOLAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFD0EF01BFF3B2500198500 /* Debug */,
+				BFFD0EF11BFF3B2500198500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFD0ECA1BFF3B2500198500 /* Project object */;
+}
