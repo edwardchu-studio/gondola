@@ -8,8 +8,14 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
 
+class ViewController: NSViewController {
+    
+    @IBOutlet weak var helloButton: NSButton!
+    
+    @IBAction func showAlert(sender: AnyObject) {
+       print("Hello world!")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
