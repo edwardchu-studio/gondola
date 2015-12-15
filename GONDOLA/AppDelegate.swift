@@ -14,9 +14,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application   
-        
-        
+        // Insert code here to initialize your application
+        let _myURL=NSURL(string:"http://ivory.edwardchor.com/GONDOLA/fetchInfo.php")
+        let _host=_myURL?.host
+        print(_host)
+        let session=NSURLSession(
+            configuration: NSURLSessionConfiguration
+                            .defaultSessionConfiguration())
 
     }
 
@@ -26,5 +30,3 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 }
-
-
