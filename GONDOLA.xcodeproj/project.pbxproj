@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5916F11C279E88006733AC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5916F01C279E88006733AC /* SwiftyJSON.swift */; };
+		BF97626C1C253F53002F9A63 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97626B1C253F53002F9A63 /* ysocket.swift */; };
+		BF9762721C253FAF002F9A63 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = BF97626E1C253FAF002F9A63 /* ytcpsocket.c */; };
+		BF9762731C253FAF002F9A63 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97626F1C253FAF002F9A63 /* ytcpsocket.swift */; };
+		BF9762741C253FAF002F9A63 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = BF9762701C253FAF002F9A63 /* yudpsocket.c */; };
+		BF9762751C253FAF002F9A63 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9762711C253FAF002F9A63 /* yudpsocket.swift */; };
+		BF97627D1C254FCE002F9A63 /* hanmeimei.png in Resources */ = {isa = PBXBuildFile; fileRef = BF97627B1C254FCE002F9A63 /* hanmeimei.png */; };
+		BF97627E1C254FCE002F9A63 /* lilei.png in Resources */ = {isa = PBXBuildFile; fileRef = BF97627C1C254FCE002F9A63 /* lilei.png */; };
+		BFD783C21C2570BA00154C68 /* client.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD783C11C2570BA00154C68 /* client.swift */; };
 		BFFD0ED61BFF3B2500198500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD0ED51BFF3B2500198500 /* AppDelegate.swift */; };
 		BFFD0ED81BFF3B2500198500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD0ED71BFF3B2500198500 /* ViewController.swift */; };
 		BFFD0EDA1BFF3B2500198500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFD0ED91BFF3B2500198500 /* Assets.xcassets */; };
 		BFFD0EDD1BFF3B2500198500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFD0EDB1BFF3B2500198500 /* Main.storyboard */; };
 		BFFD0EE81BFF3B2500198500 /* GONDOLAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD0EE71BFF3B2500198500 /* GONDOLAUITests.swift */; };
+		BFFDB65A1C2943F40081D48F /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFDB6591C2943F40081D48F /* user.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5916EF1C279E88006733AC /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = json/SwiftyJSON.h; sourceTree = "<group>"; };
+		BF5916F01C279E88006733AC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = json/SwiftyJSON.swift; sourceTree = "<group>"; };
+		BF97626B1C253F53002F9A63 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ysocket.swift; path = socket/ysocket.swift; sourceTree = "<group>"; };
+		BF97626D1C253FAF002F9A63 /* GONDOLA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GONDOLA-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF97626E1C253FAF002F9A63 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ytcpsocket.c; path = socket/ytcpsocket.c; sourceTree = "<group>"; };
+		BF97626F1C253FAF002F9A63 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ytcpsocket.swift; path = socket/ytcpsocket.swift; sourceTree = "<group>"; };
+		BF9762701C253FAF002F9A63 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yudpsocket.c; path = socket/yudpsocket.c; sourceTree = "<group>"; };
+		BF9762711C253FAF002F9A63 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = yudpsocket.swift; path = socket/yudpsocket.swift; sourceTree = "<group>"; };
+		BF97627B1C254FCE002F9A63 /* hanmeimei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hanmeimei.png; path = img/hanmeimei.png; sourceTree = "<group>"; };
+		BF97627C1C254FCE002F9A63 /* lilei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lilei.png; path = img/lilei.png; sourceTree = "<group>"; };
+		BFD783C11C2570BA00154C68 /* client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = client.swift; sourceTree = "<group>"; };
 		BFFD0ED21BFF3B2500198500 /* GONDOLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GONDOLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFD0ED51BFF3B2500198500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFFD0ED71BFF3B2500198500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +55,7 @@
 		BFFD0EE31BFF3B2500198500 /* GONDOLAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GONDOLAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFD0EE71BFF3B2500198500 /* GONDOLAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GONDOLAUITests.swift; sourceTree = "<group>"; };
 		BFFD0EE91BFF3B2500198500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFDB6591C2943F40081D48F /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +76,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF5916EE1C279E7E006733AC /* json */ = {
+			isa = PBXGroup;
+			children = (
+				BF5916EF1C279E88006733AC /* SwiftyJSON.h */,
+				BF5916F01C279E88006733AC /* SwiftyJSON.swift */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		BF97626A1C253F42002F9A63 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				BF97626E1C253FAF002F9A63 /* ytcpsocket.c */,
+				BF97626F1C253FAF002F9A63 /* ytcpsocket.swift */,
+				BF9762701C253FAF002F9A63 /* yudpsocket.c */,
+				BF9762711C253FAF002F9A63 /* yudpsocket.swift */,
+				BF97626B1C253F53002F9A63 /* ysocket.swift */,
+				BF97626D1C253FAF002F9A63 /* GONDOLA-Bridging-Header.h */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		BF9762791C254FA3002F9A63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF97627A1C254FAA002F9A63 /* Img */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF97627A1C254FAA002F9A63 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				BF97627B1C254FCE002F9A63 /* hanmeimei.png */,
+				BF97627C1C254FCE002F9A63 /* lilei.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		BFD783C01C2570A400154C68 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BFFDB6591C2943F40081D48F /* user.swift */,
+				BFD783C11C2570BA00154C68 /* client.swift */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
 		BFFD0EC91BFF3B2500198500 = {
 			isa = PBXGroup;
 			children = (
+				BF5916EE1C279E7E006733AC /* json */,
+				BF9762791C254FA3002F9A63 /* Resources */,
+				BF97626A1C253F42002F9A63 /* Socket */,
 				BFFD0ED41BFF3B2500198500 /* GONDOLA */,
 				BFFD0EE61BFF3B2500198500 /* GONDOLAUITests */,
 				BFFD0ED31BFF3B2500198500 /* Products */,
@@ -75,6 +148,7 @@
 		BFFD0ED41BFF3B2500198500 /* GONDOLA */ = {
 			isa = PBXGroup;
 			children = (
+				BFD783C01C2570A400154C68 /* components */,
 				BFFD0ED51BFF3B2500198500 /* AppDelegate.swift */,
 				BFFD0ED71BFF3B2500198500 /* ViewController.swift */,
 				BFFD0ED91BFF3B2500198500 /* Assets.xcassets */,
@@ -137,16 +211,18 @@
 		BFFD0ECA1BFF3B2500198500 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = UTOPIA;
 				TargetAttributes = {
 					BFFD0ED11BFF3B2500198500 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = B3CS5C9ZP8;
+						LastSwiftMigration = 0800;
 					};
 					BFFD0EE21BFF3B2500198500 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = BFFD0ED11BFF3B2500198500;
 					};
 				};
@@ -176,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFFD0EDA1BFF3B2500198500 /* Assets.xcassets in Resources */,
+				BF97627D1C254FCE002F9A63 /* hanmeimei.png in Resources */,
 				BFFD0EDD1BFF3B2500198500 /* Main.storyboard in Resources */,
+				BF97627E1C254FCE002F9A63 /* lilei.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +272,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFDB65A1C2943F40081D48F /* user.swift in Sources */,
+				BF97626C1C253F53002F9A63 /* ysocket.swift in Sources */,
 				BFFD0ED81BFF3B2500198500 /* ViewController.swift in Sources */,
+				BFD783C21C2570BA00154C68 /* client.swift in Sources */,
+				BF9762741C253FAF002F9A63 /* yudpsocket.c in Sources */,
+				BF9762721C253FAF002F9A63 /* ytcpsocket.c in Sources */,
 				BFFD0ED61BFF3B2500198500 /* AppDelegate.swift in Sources */,
+				BF5916F11C279E88006733AC /* SwiftyJSON.swift in Sources */,
+				BF9762731C253FAF002F9A63 /* ytcpsocket.swift in Sources */,
+				BF9762751C253FAF002F9A63 /* yudpsocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -321,6 +408,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = UTOPIA.GONDOLA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GONDOLA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -328,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -336,6 +427,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = UTOPIA.GONDOLA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GONDOLA-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -347,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UTOPIA.GONDOLAUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GONDOLA;
 				USES_XCTRUNNER = YES;
 			};
@@ -360,6 +454,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UTOPIA.GONDOLAUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GONDOLA;
 				USES_XCTRUNNER = YES;
 			};
@@ -384,6 +479,7 @@
 				BFFD0EEE1BFF3B2500198500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFFD0EEF1BFF3B2500198500 /* Build configuration list for PBXNativeTarget "GONDOLAUITests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +488,7 @@
 				BFFD0EF11BFF3B2500198500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

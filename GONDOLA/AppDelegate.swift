@@ -7,25 +7,37 @@
 //
 
 import Cocoa
+import Foundation
+import Darwin.C
+
+
+//Users:Lilei, Hanmeimei, Edward
+
+//Server and clients
+
+
+let testClient=Gclient(addr:"127.0.0.1",port:8080,user:Edward)
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
-
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
-        let _myURL=NSURL(string:"http://ivory.edwardchor.com/GONDOLA/fetchInfo.php")
-        let _host=_myURL?.host
-        print(_host)
-        let session=NSURLSession(
-            configuration: NSURLSessionConfiguration
-                            .defaultSessionConfiguration())
+    
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        
+        //print("Testing the login SDK")
+        //testClient.login()
+        //testClient.acceptMsg()
+        //NSThread.sleepForTimeInterval(2)
+        //print("Now test the message!")
+        //testClient.sendMsg(3, content: "Save me a piece of dance, my lady~")
+        
 
     }
 
-    func applicationWillTerminate(aNotification: NSNotification) {
-        // Insert code here to tear down your application
+
+
+    func applicationWillTerminate(_ aNotification: Notification) {
+
     }
 
 
